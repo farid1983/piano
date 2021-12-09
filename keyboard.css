@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(235,235,235);
+}
+
+#container{
+    width: 1000px;
+    height: 500px;
+    margin:0 auto;
+    /* //margin to make container always at color-interpolation-filters: ; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.key{
+    width:80px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+    font-size: 2.5rem;
+
+    padding: 20px 10px;
+}
+
+/* .key:nth-child(1){
+    background-color: red;
+}
+
+.key:nth-child(2){
+    background-color: blue;
+} */
+
+
+/* 
+
+keys[evt.keyCode] = true;
+keys[evt.keyCode] = true;
+function keyDown(evt) {
+	keys[evt.keyCode] = true;
+	console.log(keys);
+
+	if (keys[65]) {
+		sound[0].play();
+		key[0].style.backgroundColor = "red";
+	}
+	if (keys[83]) {
+		sound[1].play();
+		key[1].style.backgroundColor = "red";
+	}
+	if (keys[68]) {
+		sound[2].play();
+		key[2].style.backgroundColor = "red";
+	}
+} */
